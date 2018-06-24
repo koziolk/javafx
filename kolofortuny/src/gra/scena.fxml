@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
 
-<GridPane alignment="center" hgap="1000" prefHeight="502.0" prefWidth="731.0" vgap="1000" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gra.Controller">
+<GridPane alignment="center" hgap="1000" prefHeight="600.0" prefWidth="1000.0" vgap="1000" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gra.Controller">
    <children>
-      <SplitPane dividerPositions="0.25" orientation="VERTICAL" prefHeight="600.0" prefWidth="1000.0">
+      <SplitPane dividerPositions="0.14, 0.778" orientation="VERTICAL" prefHeight="600.0" prefWidth="1000.0">
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="600">
-
-          </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400" prefWidth="600">
-
-          </AnchorPane>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="600">
-
+               <children>
+                  <TextField layoutX="409.0" layoutY="27.0" text="hasło" />
+               </children></AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="108.0" prefWidth="729.0">
+               <children>
+                  <Circle fill="DODGERBLUE" layoutX="499.0" layoutY="187.0" radius="150.0" rotate="80.5" stroke="BLACK" strokeType="INSIDE" />
+                  <Button layoutX="923.0" layoutY="322.0" mnemonicParsing="false" text="Kręć" />
+                  <StackPane layoutX="-352.0" layoutY="-207.0" prefHeight="150.0" prefWidth="200.0" />
+               </children>
             </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="84.0" prefWidth="998.0">
+               <children>
+                  <Button layoutX="656.0" layoutY="174.0" mnemonicParsing="false" text="Button" />
+                   <Button layoutX="888.0" layoutY="49.0" mnemonicParsing="false" text="Ustawienia" />
+                  <TextField layoutX="416.0" layoutY="49.0" text="Liczba punktów" />
+               </children></AnchorPane>
         </items>
       </SplitPane>
    </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
 </GridPane>
