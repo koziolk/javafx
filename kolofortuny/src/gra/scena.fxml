@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane alignment="center" hgap="1000" prefHeight="502.0" prefWidth="731.0" vgap="1000" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gra.Controller">
+   <children>
+      <SplitPane dividerPositions="0.25" orientation="VERTICAL" prefHeight="600.0" prefWidth="1000.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="600">
+
+          </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400" prefWidth="600">
+
+          </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="600">
+
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</GridPane>

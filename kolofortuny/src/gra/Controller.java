@@ -1,4 +1,4 @@
-package sample;
+package gra;
 
 public class Controller {
 }
